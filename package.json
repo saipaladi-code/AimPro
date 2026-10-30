@@ -1,0 +1,13 @@
+{
+  "name": "aimpro-root",
+  "version": "1.0.0",
+  "description": "AimPro Mobile Gaming Performance Analyzer & Sensitivity Assistant",
+  "private": true,
+  "scripts": {
+    "install:all": "cmd /c \"cd server && npm install\" && cmd /c \"cd client && npm install\"",
+    "client": "cmd /c \"cd client && npm run dev\"",
+    "server": "cmd /c \"cd server && npm run dev\"",
+    "dev": "node scripts/dev.js"
+  }
+}
+
