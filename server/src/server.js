@@ -52,3 +52,6 @@ app.listen(PORT, () => {
   console.log(`🎮 AimPro API server is running on http://localhost:${PORT}`);
 });
 
+export default app;
+
+
